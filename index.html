@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Countdown</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+.container{
+    text-align:center;
+}
+
+.title{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.timer{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+}
+
+.time-box{
+    background:rgba(255,255,255,0.1);
+    padding:25px 30px;
+    border-radius:12px;
+    backdrop-filter: blur(10px);
+    min-width:90px;
+}
+
+.number{
+    font-size:48px;
+    font-weight:bold;
+}
+
+.label{
+    margin-top:8px;
+    font-size:14px;
+    opacity:0.8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="title">
+Offer ends in
+</div>
+
+<div class="timer">
+
+<div class="time-box">
+<div id="hours" class="number">00</div>
+<div class="label">Hours</div>
+</div>
+
+<div class="time-box">
+<div id="minutes" class="number">00</div>
+<div class="label">Minutes</div>
+</div>
+
+<div class="time-box">
+<div id="seconds" class="number">00</div>
+<div class="label">Seconds</div>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
