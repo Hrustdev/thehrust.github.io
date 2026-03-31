@@ -1,4 +1,4 @@
-const targetDate = new Date("2026-03-31T18:29:00Z").getTime();
+const targetDate = new Date("2026-03-31T16:29:00Z").getTime();
 
 function updateTimer(){
 
